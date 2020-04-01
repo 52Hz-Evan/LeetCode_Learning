@@ -1,4 +1,4 @@
-package com.evan.leetcode.algorithm;
+package com.leetcode.editor.cn;
 
 /**
  * @Author: Evan

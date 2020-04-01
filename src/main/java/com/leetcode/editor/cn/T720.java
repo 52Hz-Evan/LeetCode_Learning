@@ -1,4 +1,4 @@
-package com.evan.leetcode.algorithm;
+package com.leetcode.editor.cn;
 
 import java.util.ArrayList;
 import java.util.Arrays;

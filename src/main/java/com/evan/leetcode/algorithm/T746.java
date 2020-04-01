@@ -32,7 +32,6 @@ public class T746 {
         return Math.min(f0,f1);
     }
 
-
     public static void main(String[] args) {
         int[] cost = {0,2,2,1};
         System.out.println(minCostClimbingStairs(cost));

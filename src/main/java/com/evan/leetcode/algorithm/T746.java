@@ -23,8 +23,7 @@ public class T746 {
         int f1 = cost[1];
 
         int result = f1;
-        for(int i=2;i<cost.length;i++)
-        {
+        for(int i=2;i<cost.length;i++){
             result=Math.min(cost[i]+f0,f1+cost[i]);
             f0=f1;
             f1=result;

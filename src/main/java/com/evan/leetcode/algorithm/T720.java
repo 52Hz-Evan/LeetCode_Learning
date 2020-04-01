@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class T720 {
     public static String longestWord(String[] words) {
-        List<String> wordlist = new ArrayList<String>();
+        List<String> wordlist = new ArrayList<>();
 
         for (String word: words){
             wordlist.add(word);

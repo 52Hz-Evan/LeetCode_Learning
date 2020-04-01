@@ -45,6 +45,6 @@ public class T744 {
 //        char[] letters = {'e','e','e','e','e','e','n','n','n','n'};
         char[] letters = {'c','f','j'};
         char resultc = nextGreatestLetter(letters,'c');
-        System.out.println(resultc);
+        System.out.print(resultc);
     }
 }

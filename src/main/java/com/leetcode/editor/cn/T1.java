@@ -16,8 +16,6 @@ package com.leetcode.editor.cn;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-
 public class T1{
     @Test
     public void test() {

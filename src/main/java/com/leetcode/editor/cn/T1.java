@@ -14,17 +14,32 @@ package com.leetcode.editor.cn;
 // Related Topics 数组 哈希表
 
 
+import org.junit.Test;
+
+import java.util.Arrays;
+
 public class T1{
-    public static void main(String[] args) {
-        
+    @Test
+    public void test() {
+        int[] nums = {0,3,-3,4,-1};
+        int target = -1;
+        int[] result = twoSum(nums,target);
     }
-    
-    //leetcode submit region begin(Prohibit modification and deletion)
-    class Solution {
-        public int[] twoSum(int[] nums, int target) {
-            return null;
+
+    public int[] twoSum(int[] nums, int target) {
+        int[] result = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            int numOne = nums[i];
+            int numOther = target-numOne;
+            for (int j = 0; j < nums.length; j++) {
+                if(nums[j]==numOther&&j!=i){
+                    result[0] = i;
+                    result[1] = j;
+                    return result;
+                }
+            }
         }
+        return result;
     }
-    //leetcode submit region end(Prohibit modification and deletion)
 
 }

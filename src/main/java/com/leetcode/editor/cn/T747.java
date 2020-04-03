@@ -56,6 +56,24 @@ public class T747{
         }
         return -1;
     }
+
+//    public int dominantIndex(int[] nums) {
+//        int i,max=0,next=0,index=-1;
+//        for(i=0;i<nums.length;i++)
+//        {
+//            if(nums[i]>max){
+//                next=max;
+//                index=i;
+//                max=nums[i];
+//            }else if(nums[i]>next){
+//                next=nums[i];
+//            }
+//        }
+//        if(next*2>max){
+//            return -1;
+//        }
+//        return index;
+//    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

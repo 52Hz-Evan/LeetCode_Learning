@@ -6,11 +6,11 @@ package com.leetcode.editor.cn.config;
  * @Description:
  */
 public class ListNode {
-    public static int val;
+    public int val;
 
-    public static ListNode next;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 }

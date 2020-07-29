@@ -55,7 +55,8 @@ public class T912 {
                     s[i++] = s[j];
                 }
 
-                while (i < j && s[i] < x) { // 从左向右找第一个大于等于x的数
+                // 从左向右找第一个大于等于x的数
+                while (i < j && s[i] < x) {
                     i++;
                 }
                 if (i < j) {
@@ -63,7 +64,7 @@ public class T912 {
                 }
             }
             s[i] = x;
-            quickSort(s, l, i - 1); // 递归调用
+            quickSort(s, l, i - 1);
             quickSort(s, i + 1, r);
         }
     }

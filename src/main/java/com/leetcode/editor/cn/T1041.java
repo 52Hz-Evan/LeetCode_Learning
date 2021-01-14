@@ -62,9 +62,10 @@ public class T1041 {
         int d = 0;
         int x = 0;
         int y = 0;
+        char temp;
         for (int i = 0; i < instructions.length(); i++) {
-            String temp = instructions.substring(i, i + 1);
-            if (temp.equals("G")) {
+            temp = instructions.charAt(i);
+            if (temp == 'G') {
                 if (d == 0) {
                     y++;
                 } else if (d == 1) {
@@ -74,7 +75,7 @@ public class T1041 {
                 } else if (d == 3) {
                     x++;
                 }
-            } else if (temp.equals("R")) {
+            } else if (temp == 'R') {
                 if (d == 0) {
                     d = 2;
                 } else if (d == 1) {
@@ -84,7 +85,7 @@ public class T1041 {
                 } else if (d == 3) {
                     d = 0;
                 }
-            } else if (temp.equals("L")) {
+            } else if (temp == 'L') {
                 if (d == 0) {
                     d = 3;
                 } else if (d == 1) {

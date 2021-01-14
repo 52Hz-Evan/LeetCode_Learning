@@ -74,7 +74,7 @@ public class T1041 {
                 } else if (d == 3) {
                     x++;
                 }
-            } else if(temp.equals("R")) {
+            } else if (temp.equals("R")) {
                 if (d == 0) {
                     d = 2;
                 } else if (d == 1) {
@@ -84,7 +84,7 @@ public class T1041 {
                 } else if (d == 3) {
                     d = 0;
                 }
-            } else if(temp.equals("L")) {
+            } else if (temp.equals("L")) {
                 if (d == 0) {
                     d = 3;
                 } else if (d == 1) {
@@ -97,7 +97,7 @@ public class T1041 {
             }
         }
 
-        if (x ==0 && y == 0) {
+        if (x == 0 && y == 0) {
             return true;
         }
         if (d != 0) {

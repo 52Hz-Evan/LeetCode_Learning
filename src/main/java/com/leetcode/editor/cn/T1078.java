@@ -34,12 +34,11 @@ package com.leetcode.editor.cn;
 
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class T1078{
+public class T1078 {
     public static void main(String[] args) {
         String[] result = findOcurrences("alice is a good girl she is a good student", "a", "good");
         System.out.println(JSON.toJSON(result));
@@ -49,9 +48,9 @@ public class T1078{
         List<String> strs = new ArrayList<>();
         String[] split = text.split(" ");
         for (int i = 0; i < split.length; i++) {
-            if (split[i].equals(first) && i+2 < split.length) {
-                if (split[i+1].equals(second)) {
-                    strs.add(split[i+2]);
+            if (split[i].equals(first) && i + 2 < split.length) {
+                if (split[i + 1].equals(second)) {
+                    strs.add(split[i + 2]);
                 }
             }
         }

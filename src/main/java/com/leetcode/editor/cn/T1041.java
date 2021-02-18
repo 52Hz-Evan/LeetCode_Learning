@@ -59,9 +59,7 @@ public class T1041 {
 
     public static boolean isRobotBounded(String instructions) {
         //0:北；1：南；2：西；3：东。
-        int d = 0;
-        int x = 0;
-        int y = 0;
+        int d = 0, x = 0, y = 0;
         char temp;
         for (int i = 0; i < instructions.length(); i++) {
             temp = instructions.charAt(i);
